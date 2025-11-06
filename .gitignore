@@ -1,0 +1,39 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Node (teamhub)
+teamhub/node_modules/
+teamhub/.env
+teamhub/.env.*
+teamhub/build/
+teamhub/dist/
+teamhub/.next/
+teamhub/npm-debug.log*
+teamhub/yarn-debug.log*
+teamhub/yarn-error.log*
+teamhub/.parcel-cache/
+teamhub/.turbo/
+
+# Java/Gradle (th)
+th/.gradle/
+th/build/
+th/bin/
+th/out/
+*.log
+
+# Runtime uploads (backend)
+th/book/uploads/
+
+# Coverage / test
+coverage/
+*.coverage
+
+# Misc
+*.swp
+*.swo
+
+
